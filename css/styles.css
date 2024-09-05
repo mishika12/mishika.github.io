@@ -10509,7 +10509,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .timeline-image {
     width: 80px; /* Adjust as needed */
     height: 80px; /* Adjust as needed */
-    background-color: transparent; /* Yellow background */
+    background-color: white; /* Yellow background */
     border-radius: 50%; /* Makes the container circular */
     display: flex;
     align-items: center;
