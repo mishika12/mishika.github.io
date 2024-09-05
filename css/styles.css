@@ -10506,3 +10506,22 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.timeline-image {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    background-color: yellow; /* Yellow background */
+    border-radius: 50%; /* Makes the container circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Hides overflow to keep the circle shape */
+    /* Add a border to see the circle clearly if needed */
+    border: 2px solid black; 
+}
+
+.timeline-image img {
+    width: 100%; /* Ensures the image covers the container */
+    height: 100%; /* Ensures the image covers the container */
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+    border-radius: 50%; /* Ensures the image inside the container is also circular */
+}
