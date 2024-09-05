@@ -10507,8 +10507,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .timeline-image {
-    width: 70px; /* Adjust as needed */
-    height: 70px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
     background-color: white; /* Yellow background */
     border-radius: 50%; /* Makes the container circular */
     display: flex;
@@ -10520,8 +10520,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .timeline-image img {
-    width: 80%; /* Ensures the image covers the container */
-    height: 80%%; /* Ensures the image covers the container */
+    width: 100%; /* Ensures the image covers the container */
+    height: 100%%; /* Ensures the image covers the container */
     object-fit: contain; /* Ensures the image conatins the circle without distortion */
     border-radius: 50%; /* Ensures the image inside the container is also circular */
 }
