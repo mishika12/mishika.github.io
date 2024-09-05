@@ -10522,6 +10522,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 .timeline-image img {
     width: 75%; /* Ensures the image covers the container */
     height: 75%; /* Ensures the image covers the container */
-    object-fit: cover; /* Ensures the image covers the circle without distortion */
+    object-fit: contain; /* Ensures the image conatins the circle without distortion */
     border-radius: 50%; /* Ensures the image inside the container is also circular */
 }
