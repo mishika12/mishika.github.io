@@ -10523,7 +10523,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 100%; /* Ensures the image covers the container */
     height: 100%%; /* Ensures the image covers the container */
     object-fit: cover; /* Ensures the image conatins the circle without distortion */
-    border-radius: 100%; /* Ensures the image inside the container is also circular */
+    border-radius: 50%; /* Ensures the image inside the container is also circular */
 }
 .skill-column {
     display: flex;
