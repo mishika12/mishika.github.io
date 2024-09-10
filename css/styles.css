@@ -10509,22 +10509,22 @@ section#contact form#contactForm :-ms-input-placeholder {
 .timeline-image {
     width: 100px; /* Adjust as needed */
     height: 100px; /* Adjust as needed */
-    background-color: yellow; /* Yellow background */
+    background-color: transparent; /* Set to white or transparent if needed */
     border-radius: 50%; /* Makes the container circular */
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden; /* Hides overflow to keep the circle shape */
-    /* Add a border to see the circle clearly if needed */
-    border: 2px solid black; 
+    border: 2px solid black; /* Optional: Add border to see circle clearly */
 }
 
 .timeline-image img {
     width: 100%; /* Ensures the image covers the container */
-    height: 100%%; /* Ensures the image covers the container */
-    object-fit: cover; /* Ensures the image conatins the circle without distortion */
+    height: 100%; /* Ensures the image covers the container */
+    object-fit: contain; /* Ensures the entire image is visible without cropping */
     border-radius: 50%; /* Ensures the image inside the container is also circular */
 }
+
 .skill-column {
     display: flex;
     flex-direction: column;
